@@ -1,0 +1,55 @@
+.main-page {
+    background-color: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  
+  
+  .featured-projects {
+    padding: 20px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Set to display three cards */
+    gap: 50px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+  }
+  
+  .project-card a{
+    text-decoration: none;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    font-family: SF-Semibold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .project-card p {
+    font-family: SF-Pro-Light;
+    line-height: 1.5;
+  }
+  
+  .latest-articles {
+    padding: 20px;
+  }
+  
