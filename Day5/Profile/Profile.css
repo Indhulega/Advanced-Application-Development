@@ -1,0 +1,47 @@
+.profile-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .profile-details {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #c5a3bbe1; /* Mild blue color */
+    padding: 20px;
+    border-radius: 0 0 0 90px; /* To create a quarter circle shape in the top right corner */
+    z-index: 1; /* Ensure the details box appears above the background image */
+    transition: transform 0.3s ease; /* Add a transition for smooth animation */
+  }
+  
+  .profile-details:hover {
+    transform: scale(1.1); /* Enlarge the profile details box on hover */
+  }
+  
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 100%;
+    background-image: url('https://www.i-eventplanner.com/wp-content/uploads/revslider/Avada_Full_Width/Corporate-Event-planner.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px); /* Optional: Apply a blur effect to the background */
+  }
+  .profile-details button {
+    padding: 10px; /* Adjust padding to make the button smaller */
+    font-size: 14px; /* Adjust font size */
+    height: auto;
+    border-radius: 15px;
+    margin-left: 20px;
+    width:60px ;
+    background-color: aliceblue;
+    color:black/* Allow the button height to adjust based on content */
+  }
+  
+  
+  

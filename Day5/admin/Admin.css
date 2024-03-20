@@ -1,0 +1,103 @@
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #9a85909e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar button.active {
+  background-color: #555;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+.package-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .package-table th, .package-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .package-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .package-table button {
+    margin-right: 5px;
+  }
+  
+  .package-table button:last-child {
+    margin-right: 0;
+  }
+  .venue-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .venue-table th,
+  .venue-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .venue-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .venue-table button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .venue-table button:hover {
+    background-color: #f2f2f2;
+  }
+  .package-table button {
+    margin-right: 5px;
+    background-color: #ddd; /* Light gray */
+  }
+  
+  .package-table button:last-child {
+    margin-right: 0;
+  }
+  
+  .venue-table button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #ddd; /* Light gray */
+  }
+  
+  .venue-table button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+
+/* Style for PackagesTab, VenuesTab, and ThemesTab can be added here */
